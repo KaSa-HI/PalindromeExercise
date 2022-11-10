@@ -6,7 +6,8 @@ namespace PalindromeExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WordSmith Test = new WordSmith();
+            Test.IsAPalindrome("mom");
         }
     }
 }
